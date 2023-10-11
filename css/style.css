@@ -99,10 +99,12 @@ span {
   color: #F1C40F;
   font-weight: lighter;
 }
-
+/* *************************************** */
 /* Offres */
+
+
 .dernieroffre {
-  min-height: 100vh;
+  min-height: 130vh;
   /* min-width: 100px; */
   background-color: #ddd;
 }
@@ -135,7 +137,6 @@ span {
 
 .containers {
   display: flex;
-  /* max-width: 70vh; */
   justify-content: center;
   padding: 0px 25px 25px 25px;
 }
@@ -190,8 +191,39 @@ span {
   border-bottom: 2px solid #333;
 }
 
+/* équipe de professionnel */
+.team{
+  min-height: 100vh;
+  background-color: #333;
+  display: flex;
+  flex-direction: row;
+  font-family: 'Montserrat', sans-serif;
+}
 
+.img-team{
+width: 50%;
+background:url(../images/team.jpg)center center/cover;
+}
+.txt-team{
+  width: 50%;
 
+}
+.txt-team h2{
+  text-align:left;
+  color: white;
+  padding: 100px 50px 10px 50px;
+  font-weight: bold;
+  font-size: x-large;
+}
+.txt-team p{
+  text-align:left;
+  color: white;
+  padding: 15px 50px 10px 50px;
+/* font-size: medium; */
+font-weight: 400px;
+font-size:larger;
+letter-spacing: 0.5px;
+}
 /* 
 font-family: 'Montserrat', sans-serif;
 */
