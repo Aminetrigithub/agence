@@ -99,63 +99,96 @@ span {
   color: #F1C40F;
   font-weight: lighter;
 }
+
 /* Offres */
-.dernieroffre{
+.dernieroffre {
   min-height: 100vh;
-/* min-width: 100px; */
-background-color: aqua;
+  /* min-width: 100px; */
+  background-color: #ddd;
 }
-.offres{
+
+.offres {
   display: flex;
   /* max-width: 70vh; */
   justify-content: center;
-padding: 25px 25px 0px 25px;
+  padding: 25px 25px 0px 25px;
 }
-.img-offre1{
+
+.img-offre1 {
   min-width: 350px;
   min-height: 250px;
   background: url(../images/house-1.jpg)center center/cover;
 }
 
-.img-offre2{
+.img-offre2 {
   min-width: 350px;
   min-height: 250px;
   background: url(../images/house-2.jpg)center center/cover;
   margin: 0 40px;
 }
 
-.img-offre3{
+.img-offre3 {
   min-width: 350px;
   min-height: 250px;
   background: url(../images/house-3.jpg)center center/cover;
 }
-.containers{
+
+.containers {
   display: flex;
   /* max-width: 70vh; */
   justify-content: center;
-padding: 0px 25px 25px 25px;
+  padding: 0px 25px 25px 25px;
 }
 
-.container-offre1{
+.container-offre1 {
   min-width: 350px;
   min-height: 150px;
   background-color: white;
 }
 
-.container-offre2{
+.container-offre2 {
   min-width: 350px;
   min-height: 150px;
-  background-color: white; 
+  background-color: white;
   margin: 0 40px;
 }
 
-.container-offre3{
+.container-offre3 {
   min-width: 350px;
   min-height: 150px;
   background-color: white;
 }
 
+.dernieroffre h4 {
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+  padding: 130px 150px 20px 110px;
+  font-size: xx-large;
+  font-weight: lighter;
+}
 
+.containers p {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.p0 {
+  padding-top: 40px;
+  margin-bottom: 5px;
+}
+
+.p1 {
+  text-align: center;
+  padding: 10px 0px 0px 0px;
+}
+.p2{text-align: center;
+  padding: 10px 0px 25px 0px;}
+
+.underline {
+  margin: 10px 150px;
+  border-bottom: 2px solid #333;
+}
 
 
 
